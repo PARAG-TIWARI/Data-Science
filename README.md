@@ -8,6 +8,7 @@ This repository documents work across the data-analysis workflow: loading datase
 
 | Project | Focus | Tools | Documentation |
 |---|---|---|---|
+| QVI Customer & Transaction Analysis | Customer segmentation joined to 264K+ transaction rows; product and segment sales analysis | Python, Pandas, CSV, Excel | [Analysis report](pandas/README.md) · [Notebook](pandas/parag%20-%20G35%20Python%20-%20Pandas%20Analysis.ipynb) |
 | Diwali Sales Analysis | Retail/customer EDA and business observations | Python, Pandas, NumPy, Matplotlib, Seaborn | [Project report](project/Python_Diwali_Sales_Analysis/README.md) · [Notebook](project/Python_Diwali_Sales_Analysis/Diwali_Sales_Analysis.ipynb) |
 | Human Purchase Behaviour Analysis | Customer life-stage and premium-tier segmentation | Python, Pandas, NumPy, Matplotlib | [Project report](project/human_purchase_behaviour_Analysis/README.md) · [Analysis report](project/human_purchase_behaviour_Analysis/Human%20Purchase%20Behaviour%20Analysis%20Repor.md) · [Notebook](project/human_purchase_behaviour_Analysis/work1.ipynb) |
 | Seoul Bike Data Analysis | Hourly rental patterns and weather/season exploration | Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn | [Project report](project/SeoulBikeData_Analysis/README.md) · [Notebook](project/SeoulBikeData_Analysis/analysis.ipynb) |
@@ -19,7 +20,7 @@ This repository documents work across the data-analysis workflow: loading datase
 - Inspecting tabular datasets with Pandas.
 - Checking schema, data types, missing values, duplicates, and summary statistics.
 - Cleaning columns, normalising categories, and preparing data for analysis.
-- Aggregating and comparing groups with groupby operations and cross-tabulations.
+- Joining datasets and comparing groups with aggregations and pivot tables.
 - Exploring time, demographic, geographic, product, and customer-segment patterns.
 
 ### Visualisation and communication
@@ -41,6 +42,8 @@ Data-Science/
 │   └── seaborn/
 ├── numpy/
 ├── pandas/
+│   ├── README.md
+│   └── analysis and learning notebooks
 └── project/
     ├── Python_Diwali_Sales_Analysis/
     ├── SeoulBikeData_Analysis/
@@ -48,7 +51,7 @@ Data-Science/
     └── Olympic Data Analysis web app/
 ~~~
 
-The Matplotlib, Seaborn, NumPy, and Pandas folders contain learning notebooks and smaller practice exercises. The project folder contains the more complete analysis work.
+The Matplotlib, Seaborn, NumPy, and Pandas folders also contain learning notebooks and smaller practice exercises. The project folders contain the more complete analysis work.
 
 ## Getting started
 
