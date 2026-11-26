@@ -5,6 +5,7 @@ An exploratory customer-segmentation analysis using life-stage and premium-custo
 **Author:** Parag Tiwari  
 **Notebook:** [work1.ipynb](work1.ipynb)  
 **Detailed report:** [Human Purchase Behaviour Analysis Report](Human%20Purchase%20Behaviour%20Analysis%20Repor.md)  
+**Transaction-linked follow-up analysis:** [QVI Customer & Transaction Analysis](../../pandas/README.md)  
 **Parent portfolio:** [Data Science repository](https://github.com/PARAG-TIWARI/Data-Science)
 
 ## 1. Project overview
@@ -14,7 +15,7 @@ This project examines how customer records are distributed across two categorica
 - **LIFESTAGE:** the customer's life-stage segment.
 - **PREMIUM_CUSTOMER:** Budget, Mainstream, or Premium.
 
-The analysis focuses on data inspection, basic cleaning, category counts, and visual comparison of customer segments. The available dataset is a customer-segment table; it does not contain transaction amount, product, or purchase-date fields.
+The analysis focuses on data inspection, basic cleaning, category counts, and visual comparison of customer segments. This particular customer-profile CSV has no transaction amount, product, or purchase-date fields. A separate notebook in the parent repository joins customer profiles to transaction data for a broader sales analysis.
 
 ## 2. Dataset profile
 
